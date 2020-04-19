@@ -1,18 +1,17 @@
 head{
-    background-color: black;
+    background-color: black !important;
 }
 
 body{
-    overflow: hidden;
+    overflow-x: hidden;
     margin: 0%;
-    background-image: url("./back.jpg") !important;
+    height: 1000%;
 }
 
 #stud{
     float: left !important;
     position: relative !important;
     margin-top: -5% !important;
-    margin-bottom: -7% !important;
     width: 45% !important;
 }
 
@@ -40,7 +39,7 @@ body{
     position: relative !important;
     font-family: 'LEMON MILK'; src: url('./fonts/LEMONMILK-Medium.woff2') format('woff2'), url('./fonts/LEMONMILK-Medium.woff') format('woff') !important;
     font-size: 3.5vw !important;
-    /*color:   #47ffffd2*/;    /* #00a1ff*/
+    /*color:   #47ffffd2*/;    /* #00a1ff*/    /*#00d9ff*/
     color: #313030e1 !important;
     /*text-align: center;
     margin-left: -8% !important;*/
