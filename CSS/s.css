@@ -1,0 +1,50 @@
+head{
+    background-color: black !important;
+}
+
+body{
+    overflow-x: hidden;
+    margin: 0%;
+    height: 1000%;
+}
+
+#stud{
+    float: left !important;
+    position: relative !important;
+    margin-top: -5% !important;
+    width: 45% !important;
+}
+
+.column {
+    float: left !important;
+    width: 45.8%!important;
+    padding: 10px !important;
+    height: 50% !important;
+}
+
+.column2 {
+    float: right !important;
+    width: 50% !important;
+    padding: -10px !important;
+    height: 50% !important;
+}
+
+.row:after {
+    content: "" !important;
+    display: table !important;
+    clear: both !important;
+  }
+
+.text {
+    position: relative !important;
+    font-family: 'LEMON MILK'; src: url('./fonts/LEMONMILK-Medium.woff2') format('woff2'), url('./fonts/LEMONMILK-Medium.woff') format('woff') !important;
+    font-size: 3.5vw !important;
+    /*color:   #47ffffd2*/;    /* #00a1ff*/    /*#00d9ff*/
+    color: #313030e1 !important;
+    /*text-align: center;
+    margin-left: -8% !important;*/
+    margin-top: 2% !important;
+    margin-left: 15% !important;
+    /*transform:rotate(-10deg);
+    text-decoration: underline;*/
+}
