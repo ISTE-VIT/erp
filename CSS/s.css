@@ -3,6 +3,7 @@ head{
 }
 
 body{
+	background-color: gainsboro;
     overflow-x: hidden;
     margin: 0%;
     height: 1000%;
@@ -687,7 +688,7 @@ html, body {
 			  #00d9ff 50%, 
 			  #000000 50%, 
 			  #000000 100%
-			);
+			) !important;
 		  }
 
 .column3 {

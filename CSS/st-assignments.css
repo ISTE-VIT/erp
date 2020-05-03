@@ -1,0 +1,93 @@
+.rectangle {
+    left: 0vw;
+    width: 18vw;
+    min-height: 88vw;
+    overflow-y: visible;
+    background-color: rgb(206, 215, 217);
+    position: absolute;
+}
+.verticle {
+     position: relative;
+    width: 0.225vw;
+    height: 85vw;
+    padding-bottom: 50%;
+    margin-bottom: -85vw;
+    left: 22.25vw;
+    top: 2vw;
+    background-color: #FF6F00;
+}
+.horizontal {
+    position: relative;
+    height: 0.225vw;
+    width: 75vw;
+    left: 20vw;
+    background-color: #FF6F00;
+}
+.panel {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.45vw;
+    text-align: center;
+    margin-top: 3vw;
+    color:  #1d1c1cb2;
+}
+#B {
+    margin-left: 4vw;
+        border-radius: 25px;
+        border: 2px solid cornflowerblue;
+        width: 10vw;
+}
+/*#B:active {
+    margin-left: 4vw;
+    border-radius: 25px;
+    border: 2px solid cornflowerblue !important;
+    width: 10vw;
+}*/
+#M:hover ~ #B{
+    margin-left: 4vw;
+    border-radius: 25px;
+    border: 2px solid rgb(206, 215, 217) !important;
+    width: 10vw;
+}
+.panel:hover {
+    margin-left: 4vw;
+    border-radius: 25px;
+    border: 2px solid cornflowerblue !important;
+    width: 10vw;
+}
+a:link {
+    text-decoration: none;
+}
+#CaRd {
+    background-color: #f2f2f2;
+    height: ;
+    left: 26vw;
+    margin-top: 2vw;
+    width: 68vw;
+}
+  .card-body {
+      padding: 1vw;
+      padding-bottom: 0vw;
+  }
+  /*tr:nth-child(even) {
+    background-color: white;
+  }*/
+  .card-header {
+    font-family: Verdana,sans-serif;
+    padding: 1vw;
+  }
+
+
+  /*<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50vw" height="5vw" viewBox="27vw 2vw 100vw 10vw">
+        <defs>
+          <filter id="Path_640" x="25vw" y="0" width="100vw" height="10vw" filterUnits="userSpaceOnUse">
+            <feOffset dy="3" input="SourceAlpha"></feOffset>
+            <feGaussianBlur stdDeviation="3" result="blur"></feGaussianBlur>
+            <feFlood flood-opacity="0.459"></feFlood>
+            <feComposite operator="in" in2="blur"></feComposite>
+            <feComposite in="SourceGraphic"></feComposite>
+          </filter>
+        </defs>
+        <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Path_640)">
+          <path id="Path_640-2" data-name="Path 640" d="M0,0H1345V69H0Z" transform="translate(9 6)" fill="#ced7d9" opacity="0.8"></path>
+        </g>
+      </svg>*/
