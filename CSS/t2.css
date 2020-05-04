@@ -3,6 +3,7 @@ head{
 }
 
 body{
+	background-color: #201f1f;  /*#4497c7*/
     overflow-x: hidden;
     margin: 0%;
     height: 1000%;
@@ -680,7 +681,7 @@ html, body {
 			display: block
 		}
 		
-		.lx {
+		/*.lx {
 			background: linear-gradient(
 			  to right, 
 			  #00d9ff 0%, 
@@ -688,7 +689,7 @@ html, body {
 			  #000000 50%, 
 			  #000000 100%
 			);
-		  }
+		  }*/
 
 .column3 {
 	float: left;
