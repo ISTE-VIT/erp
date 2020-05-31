@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+        *{
+  padding: 0px;
+  margin:0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+.navbar
+{
+  background: #000;
+
+  height: 60px;
+
+}
+
+
+.home{
+margin-left: 100px;
+height: 40px;
+width: 40px;
+display: inline;
+  top:100px;
+  margin-top:10px;
+
+}
+
+ a
+{ font-size: 20px;
+
+  color: #fff;
+float: right;
+margin-top: 20px;
+margin-right:90px;
+
+}
+.verticle_nav
+{position: absolute;
+  height: 100%;
+  width: 250px;
+  background-color: #CED7D9;
+}
+
+.verticle_nav_items li
+{font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  padding:30px 55px;
+margin:  auto;
+text-align: center;
+
+}
+.verticle_nav_items li:hover{
+  border: 2px solid #19C2E5;
+  border-radius: 100px;
+padding:5px 5px;}
+
+
+.horizontal_line
+{
+  position: absolute;
+  display:block;
+  height: 3px;
+  width: 70%;
+  background-color: #FF6F00;
+  top: 150px;
+  margin-left:320px;
+  margin-right: 20px;
+}
+
+.vertical_line
+{
+  position: absolute;
+  width: 3px;
+  height: 80%;
+  top:100px;
+  background-color: #FF6F00;
+  margin-left: 370px;
+
+}
+
+
+
+.heading
+{position: absolute;
+  font-size: 50px;
+  font-family: roboto;
+  left: 400px;
+    top: 89px;
+}
+
+
+
+#msg
+{display: inline;
+  background: #F1F1F1;
+  border: 2px solid;
+    border-radius: 13px;
+    display: block;
+      height: 370px;
+      width: 700px;
+      left: 400px;
+      margin: 145px 10px 10px 456px;}
+#class
+{
+  display: inline;
+    maft: ;
+    margin: 10px 10px 10px 455px;
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 8px;
+
+}
+input[type=submit]
+{
+position: absolute;
+left: 1023px;
+
+  width: 134px;
+  background-color:#00FF22;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 13px;
+  cursor: pointer;
+  box-shadow: 5px 5px 10px;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+@media screen and (max-width: 1158px)
+{
+  #msg
+  {
+    width: 500px;
+
+  }
+  input[type=submit]
+{
+  left: 824px;
+
+}
+@media screen and (max-width: 1070px)
+{
+  .horizontal_line
+  {
+  width:60%;
+}
+  #msg
+  {
+padding-right: 60px;
+  }
+
+}
+    </style>
+  </head>
+  <body>
+    <nav class="navbar">
+      <img class="home" src="new.png" alt="IMG" >
+      <a href="#">logout</a>
+
+    </nav>
+    <div class="verticle_nav">
+         <ul class="verticle_nav_items">
+           <li>Profile</li>
+           <li>Assignment</li>
+           <li>Resorces</li>
+           <li>Payment</li>
+
+           <li>Marks</li>
+
+
+         </ul>
+    </div>
+    <div class="horizontal_line">
+    </div>
+    <div class="vertical_line">
+
+
+    </div>
+    <div class="heading">Class Message
+
+    </div>
+      <input type="text" id="msg" placeholder="write message">
+      <input type="number" id="class" placeholder="class">
+      <input type="submit" value="Submit">
+
+
+
+
+
+  </body>
+</html>

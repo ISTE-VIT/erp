@@ -1,183 +1,114 @@
-.topnav {
-  height: 85px;
-  width: 2500px;
-  background-color: #fff;
+body {
   overflow: hidden;
-
-  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
-
 }
-.vtop
-{
-  margin-left: 300px;
-  margin-top: 0px;
-  font-size: 50px !important;
-  color: #19C2E5 !important;
-  text-align:center !important;
-  padding-top: 0px;
+.rectangle {
+  left: 0vw;
+  width: 18vw;
+  min-height: 88vw;
+  overflow-y: visible;
+  background-color: rgb(206, 215, 217);
   position: absolute;
-      top: -10px;
-
 }
-.topnav a {
-  left:100px;
-  float: left;
-  font-family: calibri;
-  color: #636768;
-  text-align: center;
-  padding: 20px 22px;
-  text-decoration: none;
-  font-size: 25px;
-}
-body
-{
-  margin:0px;
-}
-.options
-{
-  position: absolute;
-  left: 1340px;
-
-}
-main{
-  padding:40px;
-  background:#C4BDBD;
-font-size: 50px;
-color: #636768;
-font-family: roboto;
-box-shadow: 0px 0px rgba(0, 0, 0, 0.5);
-position: relative;
-z-index: -1;
-width:2500px;
-
-}
-
-.image
-{margin-top: 100px;
-  margin-left: 200px;
-  width: 300px;
-    height:300px;
-    background-size: cover !important;
-    background-position: center !important;
-    border-radius: 500px;
+.verticle {
     position: absolute;
-    top: 300;
+    width: 0.225vw;
+    height: 42vw;
+    left: 22.25vw;
+    margin-top: 2vw;
+    background-color: #FF6F00;
 }
-main div{
-  margin-left: 250px;
+.horizontal {
+  position: relative;
+  height: 0.225vw;
+  width: 75vw;
+  left: 20vw;
+  background-color: #FF6F00;
 }
-.rectangle
-{position:absolute;
-    width: 350px;
-    height:800px;
-      background: #19C2E5;
+.horizontal2 {
+  position: relative;
+  height: 0.225vw;
+  width: 75vw;
+  left: 20vw;
+  background-color: #FF6F00;
 }
-.verticle
-{
-  position:absolute;
-    left: 70px;
-        top: 300;
-        background: transparent;
+.panel {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.45vw;
+  text-align: center;
+  margin-top: 2.5vw;
+  color:  #1d1c1cb2;
 }
-#horizontal1
-{
-  position:absolute;
-  top: 150px;
-  background: transparent;
+#B {
+  margin-left: 4vw;
+      border-radius: 25px;
+      border: 2px solid cornflowerblue;
+      width: 10vw;
 }
-
-.horizontal2
-{
-  position:fixed;
-  top: 300px;
-  background: transparent;
-  z-index: 7;
+/*#B:active {
+  margin-left: 4vw;
+  border-radius: 25px;
+  border: 2px solid cornflowerblue !important;
+  width: 10vw;
+}*/
+#M:hover + #B {
+  margin-left: 4vw;
+  border-radius: 25px;
+  border: 2px solid rgb(206, 215, 217) !important;
+  width: 10vw;
 }
-#sname
-{
-  font-size: 40px;
-  font-family:roboto;
-  color: #636768;
-  position: absolute;
-  z-index: 4;
-  top: 291px;
-    left: 607px;
+.panel:hover {
+  margin-left: 4vw;
+  border-radius: 25px;
+  border: 2px solid cornflowerblue !important;
+  width: 10vw;
 }
-article
-{
-  color: #636768;
-  font-size: 25;
-  font-family: calibri;
-  position: absolute;
-  z-index: 5;
-  left: 636px;
-    top: 400px;
-
+a:link {
+  text-decoration: none;
 }
-.info
-{
-  padding:30px;
-
+#CaRd {
+  background-color: #f2f2f2;
+  left: 22.475vw;
+  height: 35vw;
+  width: 72.5vw;
 }
-form{
-  position: absolute;
-  z-index: 10;
-  left: 669px;
-top: 435px;
-color: #636768;
-font-size: 25;
-font-family: calibri;
+.card-body {
+    padding: 1vw;
+    padding-bottom: 0vw;
 }
-.details
-{
-padding-bottom: 100px;
+.gonz {
+  padding-top: inherit;
+    padding-left: inherit;
+    height: 31.5vw;
+    width: 35%;
+    float: left;
+    opacity: 0.95;
 }
-
-@media screen and (max-width: 1609px)
-{
-.options
-{
-  left:1200px;
+.info {
+  color: rgba(0, 0, 0, 0.733) !important;
+  width: 55%;
+  float: right;
+  text-align: left;
+  font-size: 1.5vw; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-
+table {
+  border-collapse: collapse;
+  height: 100%;
+  width: 90%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-@media screen and (max-width: 1571px)
-{
-
-  #horizontal1
-  {
-    width:1500px;
-  }
-
+th {
+  font-weight: 500;
+  text-align: left;
 }
-@media screen and (max-width: 1415px)
-{
-  .options
-  {
-    left:1100px;
-  }
+td {
+  height: 20%;
+  font-weight: 500;
 }
-@media screen and (max-width: 1315px)
-{
-  .options
-  {
-    left:1050px;
-  }
-}
-
-@media screen and (max-width: 1215px)
-{
-  .options
-  {
-    left:1000px;
-  }
-
-}
-@media screen and (max-width: 1267px)
-{
-  .options
-  {
-    left:970px;
-  }
-
+.card-header {
+  margin-top: 1vw;
+  padding-left: 2vw;
+  margin-left: -5vw;
+  font-weight: 550;
+  font-size: 1.45vw;
+  border-width: medium;
 }

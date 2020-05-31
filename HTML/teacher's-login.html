@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<head>
+  <title>Welcome to ERP</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../CSS/faculty-login.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <main>
+    <section class="header">
+      <div class="container">
+        <h1>
+          College ERP
+        </h1>
+  
+        <p class="intro-text">
+          With this web app, students can access university's 
+          resources to study, also facilitating teachers, while they have their own IDs with which they can manage their academic proccesses.
+        </p>
+      </div>
+    </section>
+  
+    <section class="main">
+      <div class="container">
+        <h2 class="call-to-action">
+          If you are Faculty &nbsp;<b> Login Here! </b>
+        </h2>
+  
+        <form action="./student-profile.html" class="form">
+          <div class="column">
+            <input type="Faculty ID" placeholder="Faculty ID" class="form-item" required aria-label="Faculty ID">
+            <span class="form-error"></span>
+            <input type="password" placeholder="Password" class="form-item" required aria-label="password">
+            <span class="form-error"></span>
+            <button type="submit" class="form-submit" onclick="formCheck()">Login</button>
+  
+            <small>Click here for <a href="Landing-page-st.html">Student Login</a></small>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>
