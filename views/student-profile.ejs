@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>st-Profile</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="st-profile.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#"><img src="./Images/home2.png" style="height: 2.25vw;"></a>
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="./Landing-page-st.html" style="font-size: 1.2vw; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;"><strong>Log out</strong></a>
+                </li>
+          </nav>
+    </head>
+    <body>
+<div class="rectangle">
+<div id="M">
+      <a href="/">
+        <p class="panel" id="B" style="margin-top: 7vw !important;">Profile</p>
+      </a>
+          <a href="/stassign">
+      <p class="panel">Assignments</p>
+    </a>
+    <a href="/stresources">
+      <p class="panel">Resources</p>
+    </a>
+    <a href="/feepay">
+      <p class="panel">Payment</p>
+    </a>
+  </div>
+  <a href="/stmarks">
+      <p class="panel">Marks</p></a>
+      <a href="/Stumessages">
+      <p class="panel">Class Messages</p></a>
+  </div>
+
+       
+<div class="verticle">
+</div>
+
+<h4 style="color: black;
+font-size: 1.95vw;
+margin-left: 27vw !important;
+margin-top: 2vw;"><strong>PROFILE</strong></h4>
+
+<div class="horizontal">
+</div>
+<div class="card " id="CaRd">
+<div class="card-body">
+ <img class="gonz" src= <%= PIC %>>
+ <div class="info">
+  <div class="card-header" style="font-weight: 550; font-size: 1.7vw; border-width: medium; color: rgba(0, 0, 0, 0.877);"><%= N %></div>
+  <br><br><br><table>
+    <tbody>
+      <tr>
+      <td><b>REGISTRATION NO. -</b></td>
+      <td><%= R_no %></td>
+    </tr>
+    <tr>
+      <td><b>PHONE NO. -</b></td>
+      <td><%= Pn %></td>
+    </tr>
+    <tr>
+      <td><b>GPA</b></td>
+      <td><%= Gp %></td>
+    </tr>
+    <tr>
+      <td><b>HOSTEL -</b></td>
+      <td><%= Hos %></td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+
+<div class="horizontal2"></div></body>
+</html>
